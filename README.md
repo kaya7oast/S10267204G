@@ -11,6 +11,8 @@ FEATURES
 
 FEATURES LEFT TO IMPLEMENT
 -add items from your profile to sell in the market place
+-nav links
+-profile
 
 TECHNOLOGIES USED:
 -Linkedin learning & youtube: i had to search up some tutorials for how to utilize javascript
