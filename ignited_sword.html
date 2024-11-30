@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignited Sword - Game Tradehub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Generic RPG Game</h1>
+        </div>
+        <a href="index.html" class="button profile-link">Marketplace</a>
+    </header>
+
+    <!-- Item Details Section -->
+    <section id="item-details">
+        <h2 class = "bought_item">Ignited Sword</h2>
+        <img src="" alt="Flaming Sword">
+        <p><strong>Power:</strong> 42</p>
+        <p><strong>Range:</strong> 8</p>
+        <p><strong>Status:</strong> 15% chance for burn</p>
+        <p><strong>Description:</strong> A hell-forged sword. Its undying flames lights its enemies into a wrathful blaze</p>
+    </section>
+
+    <!-- Make an Offer Section -->
+    <section id="make-offer">
+        <h2>Make an Offer!</h2>
+        <form id="offer-form">  
+            <label for="offer-amount">Offer (in Gold):</label>
+            <input type="number" id="offer-amount" name="offer-amount" required>
+            <button type="submit">Submit Offer</button>
+        </form>
+    </section>
+
+    <!-- Offers Made -->
+    <section id="offers">
+        <h2><strong>Offers:</strong></h2>
+        <h3>Buying for:<span class="spacing">Offer by:</span></h3>
+        <ol id="offers-list">
+            <li><p style="white-space: pre;">120 Gold                                     Dambaldor</p></li>
+        </ol>
+    </section>
+
+    <script src="offers.js"></script>
+</body>
+</html>

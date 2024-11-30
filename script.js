@@ -4,19 +4,12 @@ document.getElementById('search').addEventListener('input', function() {
     let items = document.querySelectorAll('.item');
 
     items.forEach(function(item) {
-        let itemName = item.querySelector('h3').innerText.toLowerCase();
+        let itemName = item.querySelector('h4').innerText.toLowerCase();
         if (itemName.includes(filter)) {
             item.style.display = ''; 
-        } else {
+        } 
+        else {
             item.style.display = 'none';
         }
-    });
-});
-
-// trade button
-const tradeButtons = document.querySelectorAll('.item button');
-tradeButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        alert('You have contacted the seller to trade this item!');
     });
 });
