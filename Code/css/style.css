@@ -175,7 +175,7 @@ header {
     }
 
     .items {
-        grid-template-columns: 1fr; /* Stack the items in a single column */
+        grid-template-columns: 1fr;
     }
 
     .item {
@@ -185,11 +185,11 @@ header {
     }
 
     .item button {
-        width: 100%; /* Make the button fill the container */
-        padding: 12px; /* Increase button size for better touch interaction */
+        width: 100%; 
+        padding: 12px; 
     }
 
     .header .logo h1 {
-        font-size: 1.5rem; /* Smaller font size for mobile view */
+        font-size: 1.5rem; 
     }
 }
